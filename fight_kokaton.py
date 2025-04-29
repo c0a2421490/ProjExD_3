@@ -163,6 +163,19 @@ class Score:
         self.txt = self.fonto.render((f"スコア:{self.score}"), 0, (0, 0, 255))
         screen.blit(self.txt, self.rct)
 
+class Explosion:
+    """
+    爆発のクラス
+    """
+    def __init__(self):
+        """
+        init
+        """
+    def update(self):
+        """
+        update
+        """
+        
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
     screen = pg.display.set_mode((WIDTH, HEIGHT))    
