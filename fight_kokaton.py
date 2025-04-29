@@ -151,7 +151,7 @@ class Score:
         """
         self.score = 0
         self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
-        self.txt = self.fonto.render((f"スコア:{self.score}"), 0, (0, 0, 255))
+        self.txt = self.fonto.render((f"スコア:{self.score}"), 0, (0, 0, 255)) #color
         self.rct = self.txt.get_rect()
         self.rct.center = xy
 
